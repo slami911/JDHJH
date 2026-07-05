@@ -1,0 +1,64 @@
+{
+  "name": "Finova — Smart Personal Finance",
+  "short_name": "Finova",
+  "description": "Smart Personal Finance & Salary Manager — Track expenses, manage budgets, and achieve your financial goals.",
+  "start_url": "/JDHJH/Personal%20Salary%20Manager.html",
+  "scope": "/JDHJH/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#08081A",
+  "theme_color": "#6C5CE7",
+  "categories": ["finance", "productivity", "utilities"],
+  "lang": "ar",
+  "dir": "rtl",
+  "icons": [
+    { "src": "icons/icon-48.png", "sizes": "48x48", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-72.png", "sizes": "72x72", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-96.png", "sizes": "96x96", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-128.png", "sizes": "128x128", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-144.png", "sizes": "144x144", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-152.png", "sizes": "152x152", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-256.png", "sizes": "256x256", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-384.png", "sizes": "384x384", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml", "purpose": "any maskable" },
+    { "src": "icons/icon-512.svg", "sizes": "512x512", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "screenshots": [
+    {
+      "src": "icons/screenshot-dashboard.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Finova Dashboard Overview"
+    }
+  ],
+  "prefer_related_applications": false,
+  "related_applications": [],
+  "display_override": ["standalone", "window-controls-override"],
+  "shortcuts": [
+    {
+      "name": "لوحة المعلومات",
+      "short_name": "Dashboard",
+      "description": "View your financial dashboard",
+      "url": "/JDHJH/Personal%20Salary%20Manager.html#dashboard",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "إضافة مصروف",
+      "short_name": "Add Expense",
+      "description": "Add a new expense",
+      "url": "/JDHJH/Personal%20Salary%20Manager.html#add-expense",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "المصاريف",
+      "short_name": "Expenses",
+      "description": "View all expenses",
+      "url": "/JDHJH/Personal%20Salary%20Manager.html#expenses",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
