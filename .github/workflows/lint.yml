@@ -1,0 +1,26 @@
+name: Lint & Validate
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate HTML
+        uses: Cyb3r-Jak3/html-validate-action@v2
+        continue-on-error: true
+        with:
+          file: "Personal Salary Manager.html"
+
+      - name: Validate JSON
+        run: |
+          echo "Validating manifest.json..."
+          python3 -m json.tool manifest.json > /dev/null && echo "✓ manifest.json is valid"
+          echo "Validating service-worker.js is present..."
+          test -f service-worker.js && echo "✓ service-worker.js exists"

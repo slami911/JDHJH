@@ -1,0 +1,29 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# HTML
+*.html text diff=html
+
+# JavaScript
+*.js text
+
+# JSON
+*.json text
+
+# Markdown
+*.md text
+
+# Images
+*.png binary
+*.svg text
+
+# Config
+*.json text
+*.js text
+
+# Ensure consistent line endings
+*.html text eol=lf
+*.js text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.svg text eol=lf
